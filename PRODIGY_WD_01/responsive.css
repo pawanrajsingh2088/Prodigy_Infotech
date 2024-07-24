@@ -1,0 +1,68 @@
+@media only screen and (max-width:1000px){
+    .nav_two{
+        display: none;
+    }
+    .nav_three button{
+        width: 20vw;
+    }
+    .part1{
+        width: 60vw;
+    }
+    .part2 img{
+        width: 30vw;
+    }
+    .email button{
+        width: 17vw;
+    }
+    .email input{
+        width: 25vw;
+    }
+    .divide button{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:600px) {
+    .container{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_three button{
+        width: 35vw;
+    }
+    .part1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .email input{
+        width: 55vw;
+    }
+    .email button{
+        width: 30vw;
+    }
+    .mark{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .divide button{
+        width: 25vw;
+    }
+}
+@media only screen and (max-width:400px) {
+    .mark{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
