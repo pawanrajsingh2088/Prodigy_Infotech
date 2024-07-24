@@ -1,0 +1,42 @@
+@media only screen and (max-width:600px) {
+    .nav{
+        font-size: 4vh;
+    }
+    .text{
+        height: 18vh;
+        font-size: 15vh;
+    }
+    .order{
+        width: 60vw;
+    }
+    .start button{
+        width: 20vw;
+    }
+    .pause button{
+        width: 20vw;
+    }
+    .stop button{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:400px) {
+    .nav{
+        font-size: 3.5vh;
+    }
+    .text{
+        width: 75%;
+        font-size: 13vh;
+    }
+    .order{
+        width: 75vw;
+    }
+    .start button{
+        width: 25vw;
+    }
+    .pause button{
+        width: 25vw;
+    }
+    .stop button{
+        width: 25vw;
+    }
+}
