@@ -1,0 +1,245 @@
+.back{
+    background-image: url("../Assets/education.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+.front:hover{
+    border: 4px solid red;
+    transition-timing-function:ease-in;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+.education{
+    background-image: url("../Assets/background.webp");
+    background-repeat: none;
+    background-size: cover;
+}
+
+   /* Responsive */
+
+@media only screen and (max-width:1220px) {
+    .main_text{
+        font-size: 35px;
+    }
+    .main_head{
+        font-size: 25px;
+    }
+    .main img{
+        width: 200px;
+    }
+    .main{
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main_btn{
+        margin-left: 0;
+    }
+    .nav_2{
+        gap: 15px;
+    }
+    .nav_1_text{
+        font-size: 30px;
+    }
+    .education_box{
+        width: 30%;
+    }
+    .education_box h1{
+        font-size: 22px;
+    }
+    .education_box img{
+        width: 70px;
+    }
+    .education_box p{
+        font-size: 15px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_text{
+        font-size: 18px;
+    }
+    .footer_img img{
+        width: 35px;
+    }
+    .about{
+        width: 80%;
+    }
+    .contact{
+        width: 80%;
+    }
+    .contact textarea{
+        width: 90%;
+    }
+    .projects{
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .nav_1 img{
+        height: 35px;
+    }
+    .nav_1_text{
+        font-size: 25px;
+    }
+    .nav_2 span{
+        font-size: 15px;
+    }
+    .nav_1{
+        width: 60%;
+    }
+    .nav_2{
+        width: 40%;
+        gap: 7px;
+        margin-right: 7px;
+    }
+    .main{
+        height: 200px;
+    }
+    .main_img{
+        display: none;
+    }
+    .main img{
+        width: 150px;
+    }
+    .main_text{
+        font-size: 25px;
+    }
+    .main_head{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .main_btn{
+        margin-top: 4px;
+    }
+    .education h1{
+        font-size: 28px;
+    }
+    .education_out{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
+    }
+    .education_box{
+        width: 70%;
+    }
+    .education_box h1{
+        font-size: 20px;
+    }
+    .education_box img{
+        width: 50px;
+    }
+    .skills{
+        margin-top: 0px;
+    }
+    .skills h1{
+        font-size: 28px;
+    }
+    .skills_img img{
+        height: 50px;
+    }
+    .footer{
+        gap: 2px;
+    }
+    .footer_text{
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .projects{
+        grid-template-columns: auto;
+    }
+    .projects_box{
+        width: 370px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .nav{
+        flex-direction: column;
+    }
+    .nav_1{
+        width: 100%;
+        background-color: antiquewhite;
+    }
+    .nav_1_text{
+        font-size: 20px;
+    }
+    .nav_2{
+        width: 100%;
+        height: 10vh;
+        gap: 15px;
+        background-color: black;
+        color:white; 
+    }
+    .hamburger{
+        display: block;
+    }
+    .main{
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+    }
+    .main_body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        margin-bottom: 10px;
+        gap: 2vh;
+    }
+    .education_out{
+        gap: 2vh;
+    }
+    .education_box{
+        width: 90%;
+    }
+    .skills_img img{
+        height: 40px;
+    }
+    .skills_img{
+        gap: 5px;
+    }
+    .footer_text{
+        font-size: 14px;
+    }
+
+    .footer{
+        gap: 1px;
+    }
+    .project_head h1{
+        font-size: 30px;
+    }
+    .projects_box{
+        width: 95%;
+        margin: 0;
+    }
+    .about_head h1{
+        font-size: 30px;
+    }
+    .about{
+        width: 90%;
+        padding: 12px;
+        font-size: 18px;
+        margin-bottom: 2vh;
+    }
+    .contact{
+        width: 90%;
+    }
+    .contact input{
+        width: 95%;
+        font-size: 15px;
+    }
+    .contact textarea{
+        width: 100%;
+        font-size: 15px;
+    }
+}
